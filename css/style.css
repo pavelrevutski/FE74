@@ -14,6 +14,8 @@
   font-display: swap;
 } */
 
+
+
 @font-face {
   font-family: "Kaushan Script";
   src: url(../fonts/Kaushan_Script/Kaushan_Script/KaushanScript-Regular.woff2)
@@ -25,22 +27,38 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url(/fonts/Montserrat/Montserrat/Montserrat-Bold.woff2) format("woff2"),
-    url(/fonts/Montserrat/Montserrat/Montserrat-Bold.woff) format("woff");
+  src: url(../fonts/Montserrat/Montserrat/Montserrat-Bold.woff2) format("woff2"),
+    url(../fonts/Montserrat/Montserrat/Montserrat-Bold.woff) format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Raleway";
-  src: url(/fonts/Raleway/Raleway-Bold.woff) format("woff"), 
-  src: url(/fonts/Raleway/Raleway-Bold.woff2) format("woff2");
+  src: url(../fonts/Raleway/Raleway-Bold.woff) format("woff"), 
+  src: url(../fonts/Raleway/Raleway-Bold.woff2) format("woff2");
   
 font-display: swap;
 } 
 
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* max-width: 1200px;
+  padding-right: 170px;
+  padding-left: 170px; */
+  /* display: flex;
+  list-style: none;
+  justify-content: right; */
+
+  
+}
+
+
 body {
-  width: 80%;
-  margin: auto;
+  /* width: 80%;
+  margin: auto; */
   /* background: linear-gradient(
     360deg,
     rgba(237, 215, 137, 0.9) 0%,
@@ -49,30 +67,104 @@ body {
       width: 80%; margin: 0 auto; */
 }
 
+.mogo_logo {
+/* background-color: black; */
+max-width: 100%;
+display: flex;
+height: auto;
+}
+
+.header_list {
+  /* background-color: black; */
+ /* text-align: right ;
+  */
+ 
+}
+
+.conteiner {
+max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+
+}
+
 .section1 {
     background-image: linear-gradient(
     360deg,
     rgba(237, 215, 137, 0.9) 0%,
     rgba(233, 130, 131, 0.9) 100%
     ),
-    url(../images/Rectangle_1.svg);
-      
-  
+    url(../images/Rectangle_1.svg),
+    url(../images/Rectangle2.svg);
+    padding-top: 177px;
+    max-width: 1200px;
+  /* padding: 0 15px; */
+  margin: 0 auto;  
+  }
+
+.section2{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 148px;
 }
 
-.mogo_logo {
-/* background-color: black; */
+.section3 {
+background-color: #95E1D3;
+display: flex;
+justify-content: center;
+max-width: 1200px;
+  margin: 0 auto;
+  /* margin-top: 150px; */
 }
-.header_list {
-  /* background-color: black; */
- text-align: right ;
-  
+
+.section4 {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 91px;
 }
-.hl li {
-  text-align: right;
-display: inline;
-padding: 20px;
+
+.section5 {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 1px;
+  background-image: url("/images/MoGo/mount.svg");
 }
+
+.section6 {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 1px;
+}
+
+
+.header_list{
+display: flex;
+/* width: 1200px;
+height: 170px; */
+align-content: center;
+justify-content: center;
+
+}
+
+
+
+.hl {
+  /* text-align: right; */
+  height: 100%;
+    align-items: center;
+display: flex;
+list-style: none;
+/* padding: 20px; */
+justify-content: flex-end;
+/* align-content: flex-start; */
+/* flex-direction: row;  */
+}
+
+.hl li{
+  margin-right: 2rem;
+/* justify-content: flex-end; */
+}
+
 .CT {
   font-family: "Kaushan Script";
   font-size: 48px;
@@ -116,18 +208,45 @@ border: 4px solid #ffffff;
   width: 260px;
   padding: 10px;
   margin-top: 72px;
+  margin-bottom: 116px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   
 }
 
+.list2{
+height: 100%;
+    align-items: center;
+display: flex;
+list-style: none;
+/* padding: 20px; */
+justify-content: space-evenly;
+/* font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left; */
+
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
 .list2 li {
-   text-align: center;
+   /* text-align: center;
 display: inline-block;
 padding: 40px;
 width: 20%;
-margin-top: 50px;
+margin-top: 50px; */
+ 
 }
 
 .hs1 {
@@ -164,10 +283,25 @@ text-align: center;
 margin-top: 48px;
 }
 
-.stat {
-background-color: #95E1D3;
-display: inline-block;
-margin-top: 150px;
+
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.images3 {
+display: flex;
+justify-content: space-between;
+padding: 3rem;
+}
+
+.blocks3{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
 }
 
 .block {
@@ -270,10 +404,6 @@ display: inline-block;
   border: 4px solid #f38281;
 } */
 
-.div1 {
-}
-.section {
-}
 
 .list1 {
   text-align: center;
@@ -293,4 +423,43 @@ Line height: 35px;
 Line height: 100%;
 Align: Center;
 Vertical align: Center; */
+}
+
+ul.hr {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+ul.hr li {
+  margin-right: 2rem;
+}
+li:last-child {
+  margin-right: 0;
+}
+li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+li::after {
+  content: "";
+  display: block;
+  opacity: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(255, 0, 85);
+  transition: all 0, 0.3s ease;
+}
+li:hover::after {
+  opacity: 1;
+}
+a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: rgb(199, 104, 27);
 }
