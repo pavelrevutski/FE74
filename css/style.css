@@ -127,7 +127,41 @@ max-width: 1200px;
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 1px;
-  background-image: url("/images/MoGo/mount.svg");
+  background-image: url(/images/MoGo/mount.svg),
+  url(/images/MoGo/mount2.svg);
+  background-size: 100%;
+  
+}
+
+.ipadiphone {
+  margin-top: 83px;
+  
+display: flex;
+justify-content: center;
+position: relative;
+}
+
+.backgroundipad{
+  
+  /* max-width: 659px;
+  max-height: 494px; */
+  border: 20px solid #0f1111e3;
+  border-radius: 20px;
+  /* left: 750px;
+  top: 0px; */
+}
+
+.iphone{
+  position: absolute;
+    right: 212px;
+    bottom: -57px;
+  /* max-width: 200px;
+  max-height: 412px; */
+  
+  /* left: 0px;
+  top: 310px; */
+
+  
 }
 
 .section6 {
@@ -135,6 +169,7 @@ max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 1px;
 }
+
 
 
 .header_list{
