@@ -6,42 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style2.css" />
 
-    <title>test2</title>
+    <title>forms</title>
   </head>
   <body>
-    <section>
-      <div><h2 class="h2">How it works.</h2></div>
-      <div class="blocks">
-        <div class="block">
-          <img src="./images/test/ham.png" alt="ham" />
-          <h3>
-            Adapt your menu items Easily adapt your menu using the webflow CMS
-            and allow customers to browse your items. Let your customers order
-            and pay via the powerful
-          </h3>
-          <p>
-            ecommerce system, or simple let them call your store.Let your
-            customers order and pay via the powerful ecommerce system, or simple
-            let them call your store.
-          </p>
-        </div>
-        <div class="block">
-          <img src="/images/test/prohe.png" alt="phone" />
-          <h3>Accept online orders & takeout</h3>
-          <p>
-            Let your customers order and pay via the powerful ecommerce system,
-            or simple let them call your store.
-          </p>
-        </div>
-        <div class="block">
-          <img src="/images/test/home.png" alt="home" />
-          <h3>Manage delivery or takeout</h3>
-          <p>
-            Manage your own logistics and take orders simply through the
-            ecommerce system.
-          </p>
-        </div>
+    <div class="wrapper">
+      <div class="wrapper-logo">
+        <img src="/images/forms_img/logo.svg" />
       </div>
-    </section>
+      <form class="wrapper__form">
+        <div class="form__tittle">
+          <h2>WELCOME</h2>
+          <p>Please login to your account</p>
+        </div>
+        <div class="form_content">
+          <div class="form-item">
+            <label for="email"
+              ><input id="email" type="email" placeholder="Email Address"
+            /></label>
+            <button>
+              <img src="./images/forms_img/icon-mail.svg" alt="mail" />
+            </button>
+          </div>
+          <div class="form-item">
+            <label for="password"
+              ><input id="form-password" type="password" placeholder="Password"
+            /></label>
+            <button>
+              <img src="./images/forms_img/icon-eye.svg" alt="password" />
+            </button>
+          </div>
+          <button class="form-btn">Login</button>
+          <a href="/forgot-password">Forgot password?</a>
+        </div>
+        <div class="form__buttons">
+          <button class="form-btn form-btn--blue">
+            <img
+              src="/images/forms_img/icon-facebook.svg"
+              alt="facebook icon"
+            />
+          </button>
+          <button class="form-btn form-btn--orange">Login as guest</button>
+          <p>Don’t have an account? <a href="/Registration">Register now</a></p>
+        </div>
+      </form>
+
+      <div class="wrapper__footer">
+        <p>
+          By signing up, you are agree with our
+          <a href="Terms & Conditions">Terms & Conditions</a>
+        </p>
+      </div>
+    </div>
   </body>
 </html>

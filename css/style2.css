@@ -3,37 +3,140 @@
   margin: 0;
   padding: 0;
 }
-
-h2 {
-  font-size: 900;
+body {
   display: flex;
   justify-content: center;
-  padding-top: 4rem;
-  color: aquamarine;
 }
 
-.blocks {
-  display: flex;
-  justify-content: space-between;
+.wrapper {
+  max-width: 375px;
+  max-height: 100vh;
+  padding: 45px 38px 30px 38px;
+  font-family: Roboto;
+  color: #1a1a1a;
 }
 
-.block {
-  flex: 1;
+.wrapper .form-btn {
+  padding: 16px;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.wrapper .form-btn--blue {
+  background-color: #3b5998;
+}
+
+.wrapper .form-btn--orange {
+  background-color: #fd8c00;
+}
+
+.wrapper a {
+  color: #e70b89;
+}
+
+.wrapper-logo {
+  margin-bottom: 95px;
+  text-align: center;
+}
+
+.wrapper__form {
+  margin-bottom: 65px;
+}
+
+.form__tittle {
+  margin-bottom: 40px;
+}
+
+.form__tittle h2 {
+  margin-bottom: 5px;
+  font-size: 49px;
+  line-height: 57px;
+}
+
+.form__tittle p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-item:last-of-type {
+  margin-bottom: 18px;
+}
+
+.form-item input {
+  width: 100%;
+  padding: 14px 24px 16px 24px;
+  border: 1px solid currentColor;
+}
+
+.form-item input::placeholder {
+  color: rgba(26, 26, 26, NaN);
+}
+
+.form-item button {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translatey(-50%);
+  background: none;
+  border: none;
+}
+
+.form_content {
   display: flex;
   flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.form_content > button {
+  margin-bottom: 16px;
+  padding: 16px;
+  background: #e70b89;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.form_content > a {
+  align-self: flex-end;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.form__buttons {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
 
-h3 {
-  margin-top: 2rem;
-  text-align: center;
+.form__buttons button:not(:last-of-type) {
+  margin-right: 20px;
 }
 
-p {
-  margin-top: 2rem;
-  text-align: center;
+.form__buttons > * {
+  flex: 1;
 }
 
-img {
-  margin-top: auto;
+.form__buttons button {
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form__buttons > p {
+  flex-basis: 100%;
+}
+
+.wrapper__footer {
+  font-size: 12px;
+  line-height: 16px;
 }
