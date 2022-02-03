@@ -8,31 +8,38 @@
     <title>MoGo1</title>
   </head>
   <body>
-    <header>
-      <div class="header_list">
-      <div class="mogo_logo">
-        <a href="/"><img src="./images/MoGo/logo_MoGo.svg"" alt="logo_MoGo"></a>
-        </div>
-      
-      <nav>
-        <ul class="hl">
-          <li><a href="/">About</a></li>
-          <li><a href="/">SERVICE</a></li>
-          <li><a href="/">WORK</a></li>
-          <li><a href="/">BLOG</a></li>
-          <li><a href="/">CONTACT</a></li>
-          <div header_button>
-            <button src="./images/ico_basket.png">Basket</button>
-          <button src="./images/ico_search.svg">search</button>
+    <!-- -----------------------------HEADER---------------------->
+    <header class="header">
+      <div class="container_header">
+        <div class="header__list">
+          <div class="header__logo">
+            <a href="/"><img src="./images/MoGo/logo_MoGo.svg"" alt="logo_MoGo"></a>
           </div>
+      
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__link"><a href="/">About</a></li>
+          <li class="nav__link"><a href="/">SERVICE</a></li>
+          <li class="nav__link"><a href="/">WORK</a></li>
+          <li class="nav__link"><a href="/">BLOG</a></li>
+          <li class="nav__link"><a href="/">CONTACT</a></li>
+      
         </ul>
-       </nav>
+      </nav>
+      <div class="header_buttons">
+            <button class="header__button"><img class="header__button__img" src="/images/ico_basket.svg" alt="basket"></button>
+            <button class="header__button"><img class="header__button__img" src="./images/ico_search.svg" alt="ico_search"></button>
       </div>
+      </div>
+      </div> 
+      
       
     </header>
+    <!-- --------------------------HEADER END!----------------------- -->
     <main>
-      <section class="section1">
-        <div class="conteiner">
+      <!-- -----------------------SECTION 1--------------------------- -->
+      <section class="what_we_do">
+        <div class="container">
         <div>
           <h1 class="CT">Creative Template</h1>
           <p class="WtM">WELCOME TO MOGO</p>
@@ -52,12 +59,13 @@
           </div>
           </div>
           </section>
-
+<!-- -----------------------SECTION 1 END--------------------------- -->
+<!-- -----------------------SECTION 2--------------------------- -->
       <section class="section2">
-        <div class="conteiner">
-        <div class="headsection">
-          <h2 class="hs1">What we do</h2> 
-          <p class="hs2">STORY ABOUT US</p>
+        <div class="container">
+          <div class="headsection">
+            <h2 class="hs1">What we do</h2> 
+            <p class="hs2">STORY ABOUT US</p>
           <div class="hsline"></div>              
         </div>
         <div>
@@ -68,44 +76,51 @@
             sit fermentum risus feugiat.
           </p>
         </div>
-        <div class="blocks3">
-          <div class="blocks__image">
-        <img src="./images/super_team_2.png" alt="super_team_1" />
-          
-        <div class="blocks__hover">
-        <img src="./images/MoGo/icon_man_plus.png" alt="">
-        <p>SUPER TEAM</p>
+      <div class="img">
+        <div class="img_img">
+          <img src="./images/super_team_2.png" alt="super_team_1">
+          <div class="img_hover">
+            <img src="/images/MoGo/icon_man_plus.png" alt="man_plus">
+            <p>SUPER TEAM</p>
+          </div>
         </div>
         
-        </div>
-        <div class="blocks__image">
-        <img src="./images/super_team_2.png" alt="super_team_1" />
+        <div class="img_img">
+          <img src="./images/super_team_2.png" alt="super_team_1">
+          <div class="img_hover">
+            <img src="/images/MoGo/icon_man_plus.png" alt="man_plus">
+            <p>SUPER TEAM</p>
           </div>
-        <div class="blocks__hover">
-        <img src="./images/MoGo/icon_man_plus.png" alt="">
-        <p>SUPER TEAM</p>
         </div>
-        <div class="blocks__image">
-        <img src="./images/super_team_3.png" alt="super_team_1" />
+        <div class="img_img">
+          <img src="./images/super_team_3.png" alt="super_team_1">
+          <div class="img_hover">
+            <img src="/images/MoGo/icon_man_plus.png" alt="man_plus">
+            <p>SUPER TEAM</p>
           </div>
-        <div class="blocks__hover">
-        <img src="./images/MoGo/icon_man_plus.png" alt="">
-        <p>SUPER TEAM</p>
         </div>
-         
-        
+      </div>
+        </div>
+
       </section>
+      <!-- -----------------------SECTION 2 END------------------------ -->
+      <!-- -----------------------SECTION 3--------------------------- -->
       <section class="section3">
-        
-        <img src="./images/futures_1.png" alt="futures_1" />
+        <div class="container">
+          <img src="./images/futures_1.png" alt="futures_1" />
         <img src="./images/futures_2.png" alt="futures_2" />
         <img src="./images/futures_3.png" alt="futures_3" />
         <img src="./images/futures_4.png" alt="futures_3" />
         <img src="./images/futures_5.png" alt="futures_5" />
+        </div>
+        
         
       </section>
+      <!-- -----------------------SECTION 3 END------------------------ -->
+      <!-- -----------------------SECTION 4--------------------------- -->
       <section class="section4">
-        <div class="headsection">
+        <div class="container">
+          <div class="headsection">
           <h2 class="hs1">We work with</h2> 
           <p class="hs2">AMAZING SERVICES</p>
           <div class="hsline"></div>              
@@ -143,9 +158,13 @@
             <p class="blockimg" class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
+        </div>
       </section>
+      <!-- -----------------------SECTION 4 END---------------------- -->
+      <!-- -----------------------SECTION 5--------------------------- -->
       <section class="section5">
-        <div>
+       <div class="contaner">
+          <div>
            <div class="headsection">
           <h2 class="hs1">For all devices</h2> 
           <p class="hs2">UNIQUE DESIGN</p>
@@ -156,9 +175,13 @@
           <img class="backgroundipad" src="./images/backgroundipad.svg" alt="ipad" />
           <img class="iphone" src="./images/iphone.svg" alt="iphone" />
         </div>
+       </div>
       </section>
+      <!-- -----------------------SECTION 5 END--------------------- -->
+      <!-- -----------------------SECTION 6--------------------------- -->
       <section class="section6">
-        <div class="headsection">
+<div class="container">
+  <div class="headsection">
           <h2 class="hs1">Service</h2> 
           <p class="hs2">What we do</p>
           <div class="hsline"></div>
@@ -205,19 +228,25 @@
             
           </div>
         </div>
+</div>
+        
       </section>
-      <section>
-        <div>
-          <img src="./images/arrow_left.png" alt="arrow_left" />
-          <img src="./images/icons10.png" alt="icons10" />
+      <!-- -----------------------SECTION 6 END------------------------ -->
+      <!-- -----------------------SECTION 7--------------------------- -->
+      <section class="section7">
+        <div class="slide_menu">
+          <button class="btn_left"><img src="./images/arrow_left.png" alt="arrow_left" /></button>
+          <img class="ico_chat" src="./images/icons10.png" alt="icons10" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nec
             diam platea ullamcorper feugiat amet. Id aliquet vehicula feugiat
             arcu arcu nulla ornare. Sed amet venenatis, massa sit.</p>
           <img src="./images/divider.png" alt="divider">
           <p>Jon Doe</p>
-          <img src="./images/arrow_right.png" alt="arrow_right">
+          <button class="btn_right"><img src="./images/arrow_right.png" alt="arrow_right"></button>
           </div>
       </section>
+      <!-- -----------------------SECTION 7 END---------------------- -->
+      <!-- -----------------------SECTION 8--------------------------- -->
       <section class="meetourteam">
         <div>
           <div class="headsection">
@@ -232,9 +261,9 @@
           </p>              
          
         </div>
-        <div class="img_3">
+        <div class="blocks3">
           <div>
-            <img src="./images/super_team_1.svg" alt="super_team_1">
+            <img src="/images/MoGo/Kadin_Dias.png" alt="super_team_1">
             <img src="./images/social.png" alt="social">
             <h3>Kadin Dias</h3>
             <p>founder, ceo</p>
@@ -251,14 +280,20 @@
         </div>
         </div>
       </section>
+      <!-- -----------------------SECTION 8 END------------------------ -->
+      <!-- -----------------------SECTION 9--------------------------- -->
       <section class="baw">
+        <div class="baw_img">
         <img src="./images/BaW1.png" alt="BaW1">
         <img src="./images/BaW2.png" alt="BaW2">
         <img src="./images/baw3.png" alt="BaW3">
         <img src="./images/baw4.png" alt="BaW4">
         <img src="./images/baw5.png" alt="BaW5">
         <img src="./images/baw6.png" alt="BaW6">
+        </div>       
       </section>
+      <!-- -----------------------SECTION 9 END------------------------ -->
+      <!-- -----------------------SECTION 10-------------------------- -->
       <section>
          <div>
            <div class="headsection">
@@ -271,18 +306,22 @@
             sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue
             sit fermentum risus feugiat.</p>              
          
-        </div>
+        </div class="some_of_our_work_img">
         <div class="img_7">
-          <div>
+          <div class="some_of_our_work_img3"> 
             <img src="./images/unsplash_1.svg" alt="unsplash_1">
             <img src="./images/unsplash_2.svg" alt="unsplash_2">
            <img src="./images/unsplash_3.svg" alt="unsplash_3">
+           </div>
+           <div class="some_of_our_work_img4">
            <img src="./images/unsplash_4.svg" alt="unsplash_4">
            <img src="./images/unsplash_5.svg" alt="unsplash_5">
            <img src="./images/unsplash_6.svg" alt="unsplash_6">
            <img src="./images/unsplash_7.svg" alt="unsplash_7">
           </div>
         </section>
+        <!-- -----------------------SECTION 10 END--------------------- -->
+        <!-- -----------------------SECTION 11-------------------------- -->
       <section>
          <div>
           <img src="./images/arrow_left.png" alt="arrow_left" />
@@ -295,6 +334,8 @@
           <img src="./images/arrow_right.png" alt="arrow_right">
           </div>
       </section>
+      <!-- -----------------------SECTION 11 END----------------------- -->
+      <!-- -----------------------SECTION 12 ------------------------- -->
       <section class="happyC">
         <div>
            <div class="headsection">
@@ -335,6 +376,8 @@
           </div>
         </div>
       </section>
+      <!-- -----------------------SECTION 12 END----------------------- -->
+      <!-- -----------------------SECTION 13--------------------------- -->
       <section class="latest_blog">
         <div>
            <div class="headsection">
@@ -374,12 +417,16 @@
         </div>
         </div>
       </section>
+      <!-- -----------------------SECTION 13 END----------------------- -->
+      <!-- -----------------------SECTION 14--------------------------- -->
       <section class="latest_blog2">
         <img src="./images/icons_nav.png" alt="icons_nav">
         <h2>Latest blog</h2>
         <img src="./images/divider.png" alt="divider">     
       </section>
+      <!-- -----------------------SECTION 14 END------------------------ -->
         </main>
+        <!-- -----------------------FOOTER--------------------------- -->
     <footer>
       <div>
         <img src="./images/logo MoGo.svg" alt="MoGo">
@@ -437,5 +484,6 @@
     <img src="./images/Line 11.png" alt="line11">
     <p>Copyright © 2021 mogo. All Rights Reserved</p>
     </footer>
+    <!-- -----------------------FOOTER END--------------------------- -->
   </body>
 </html>
