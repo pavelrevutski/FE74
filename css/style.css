@@ -260,35 +260,6 @@ text-align: center;
   border-color: #e4be8d;
 }
 
-
-/* .list2{
-height: 100%;
-    align-items: center;
-display: flex;
-list-style: none;
-
-justify-content: space-evenly;
-
-
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-
-.list2 li {
-   text-align: center;
-display: inline-block;
-padding: 40px;
-width: 20%;
-margin-top: 50px;
- text-decoration: none;
-} */
-
 .wwd_bottom_part {
   margin-top: 100px;
 }
@@ -335,7 +306,7 @@ margin-top: 50px;
 .wwd_bottom_part_text {
 
   
-font-family: Raleway;
+font-family: "Raleway";
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -350,7 +321,7 @@ margin-left: 5px;
 
 .wwd_bottom_part_num {
 
-font-family: Raleway;
+font-family: "Raleway";
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
@@ -363,6 +334,79 @@ text-transform: uppercase;
 
 
 /* --------------------------SECTION 1 END ----------- */
+
+/* ----------------------4 all sections ----------------- */
+
+.section__content {
+  margin: 1rem auto 5rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.section__head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #2d3033;
+
+}
+
+.section__subtitle {
+  flex: 1;
+  padding: 1rem 0;
+  text-align: center;
+  
+  
+   font-family: Kaushan Script;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.section__title {
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  
+  line-height: 1.2;
+ font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0em;
+
+
+
+}
+
+.section__title:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 3px;
+  margin: 30px auto;
+  background-color: #f38181;
+}
+
+.section__paragraph {
+  padding: 1rem 0 2rem;
+  font-family: "Raleway";
+  font-size: 1.125rem;
+  line-height: 1.15;
+  text-align: center;
+}
+
+
+/* --------------------end 4all sections-------------- */
 
 .section2{
   /* max-width: 1200px;
