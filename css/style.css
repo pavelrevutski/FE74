@@ -406,7 +406,10 @@ letter-spacing: 0em;
 }
 
 
-/* --------------------end 4all sections-------------- */
+/* --------------------section 2----------------- */
+
+
+
 
 .section2{
   /* max-width: 1200px;
@@ -422,6 +425,8 @@ margin-bottom: 58px;
 
 .img_img {
   position: relative;
+  display: flex;
+  margin: 1rem;
   
 }
 
@@ -453,9 +458,6 @@ opacity: 1;
   transition: all 0.5s ease-in-out;
 }
 
-.section2 p {
-  margin-bottom: 58px;
-}
 
 .section3 {
 background-color: #95E1D3;
