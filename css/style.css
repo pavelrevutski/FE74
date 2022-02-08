@@ -417,6 +417,15 @@ letter-spacing: 0em;
   margin-bottom: 148px; */
 }
 
+.img__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem auto;
+
+}
+
 .img {
   display: flex;
 justify-content: center;
@@ -426,7 +435,7 @@ margin-bottom: 58px;
 .img_img {
   position: relative;
   display: flex;
-  margin: 1rem;
+  
   
 }
 
@@ -459,6 +468,8 @@ opacity: 1;
 }
 
 
+/* --------------section 3 ---------------- */
+
 .section3 {
 background-color: #95E1D3;
 display: flex;
@@ -468,12 +479,92 @@ max-width: 1200px;
   /* margin-top: 150px; */
 }
 
+
+/* ----------------section 4 -------------- */
+
+
+
+
+
 .section4 {
-  max-width: 1200px;
+  /* max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 91px;
+  margin-bottom: 91px; */
 }
 
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.blocks__image {
+  flex: 1;
+  position: relative;
+}
+
+
+
+.images3 {
+display: flex;
+justify-content: space-between;
+padding: 3rem;
+}
+
+
+
+.blocks {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+    
+}
+
+.block {
+  flex: 1;
+  margin: 3rem auto;
+  flex-basis: 30%;
+  display: flex;
+
+}
+
+.block__text {
+  font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.block__lorem{
+  font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 48px;
+padding-top: 30px;
+}
+
+.block__img {
+float: left;
+}
+
+
+
+
+
+
+
+/* --------------------section 5 ---------- */
 .section5 {
   /* max-width: 1200px; */
   margin: 0 auto;
@@ -583,64 +674,6 @@ margin-top: 48px;
 
 
 
-.blocks {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-
-.blocks__image {
-  flex: 1;
-  position: relative;
-}
-
-
-
-.images3 {
-display: flex;
-justify-content: space-between;
-padding: 3rem;
-}
-
-
-
-.block {
-  display: inline-block;
-  padding-top: 60px;
-  padding-right: 20px;
-  text-align: center;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-    
-}
-
-.blocktext {
-  font-family: Raleway;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-
-.blocklorem{
-  font-family: Raleway;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: center;
-margin-top: 48px;
-padding-top: 30px;
-}
-
-.blockimg {
-float: left;
-}
 
 .meetourteam{
   display: flex;
