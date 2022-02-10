@@ -170,7 +170,7 @@ text-align: center;
 
 /* -----------------------SECTION 1 ------------------ */
 
-.what_we_do {
+.mogo {
     background-image: linear-gradient(
     360deg,
     rgba(237, 215, 137, 0.9) 0%,
@@ -230,7 +230,7 @@ text-align: center;
   padding-top: 44px;
 } */
 
-.what_we_do_button {
+.mogo__button {
   margin: 2.5rem auto;
   border: 3px solid #fff;
   display: block;
@@ -247,27 +247,27 @@ text-align: center;
 
 }
 
-.what_we_do_button:hover {
+.mogo__button:hover {
   background-color: #fff;
   color: #e4be8d;
 }
 
-.what_we_do_button:active {
+.mogo__button:active {
   background-color: #fff;
   color: #e4be8d;
   border-color: #e4be8d;
 }
 
-.wwd_bottom_part {
+.mogo__bottom_part {
   margin-top: 100px;
 }
 
-.wwd_bottom_part_content {
+.mogo__bottom_part_content {
   display: flex;
   justify-content: space-between;
 }
 
-.wwd_bottom_part_box {
+.mogo__bottom_part_box {
   position: relative;
   cursor: pointer;
   flex: 1;
@@ -277,17 +277,17 @@ text-align: center;
   /* border-top: 3px solid #f9efcf */
 }
 
-.wwd_bottom_part_box:not(last-child) {
+.mogo__bottom_part_box:not(last-child) {
   margin-right: 2rem;
 }
 
-.wwd_bottom_part_box:hover {
+.mogo__bottom_part_box:hover {
   color: #fff;
   transition: all 0.3s ease;
 
 }
 
-.wwd_bottom_part_box:hover:after {
+.mogo__bottom_part_box:hover:after {
   
   content: "";
   position: absolute;
@@ -301,7 +301,7 @@ text-align: center;
 
 }
 
-.wwd_bottom_part_text {
+.mogo__bottom_part_text {
 
   
 font-family: "Raleway";
@@ -317,7 +317,7 @@ margin-left: 5px;
 
 }
 
-.wwd_bottom_part_num {
+.mogo__bottom_part_num {
 
 font-family: "Raleway";
 font-style: normal;
