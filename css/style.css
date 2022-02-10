@@ -233,10 +233,11 @@ text-align: center;
 .mogo__button {
   margin: 2.5rem auto;
   border: 3px solid #fff;
-  display: block;
+  /* display: block; */
   text-align: center;
-  padding: 1.2rem 6rem;
-  margin: ;
+  padding: 1.2rem 3rem;
+  width: 400px;
+  
   font-size: 1.5rem;
   color: #fff;
   font-family: "Raleway";
@@ -389,7 +390,7 @@ letter-spacing: 0em;
 .section__title:after {
   content: "";
   display: block;
-  width: 50%;
+  width: 170px;
   height: 3px;
   margin: 30px auto;
   background-color: #f38181;
@@ -443,7 +444,7 @@ margin-bottom: 58px;
 }
 
 
-.img:hover .img_hover {
+.img_img:hover .img_hover {
 opacity: 1;
 }
 
@@ -649,11 +650,48 @@ position: relative;
 
 
 .section6 {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 87px;
+
+
 }
 
+.wwdblock1 {
+  border: 2px solid black;
+  display: flex;
+}
+
+.wwdblock2 {
+border: 2px solid black;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+}
+
+.wwdblock21 {
+border: 2px solid black;
+display: flex;
+
+}
+
+.wwdblock22 {
+border: 2px solid black;
+display: flex;
+
+}
+.wwdblock23 {
+border: 2px solid black;
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+/* -----------------section 7 ---------------- */
 .section7 {
   background: #F8F8F8;
   /* display: flex;
@@ -832,33 +870,7 @@ Vertical align: Center; */
 display: flex;
 }
 
-.wwdblock1 {
-  border: 2px solid black;
-  display: flex;
-}
 
-.wwdblock2 {
-border: 2px solid black;
-display: flex;
-flex-wrap: nowrap;
-flex-direction: column;
-}
-
-.wwdblock21 {
-border: 2px solid black;
-display: flex;
-
-}
-
-.wwdblock22 {
-border: 2px solid black;
-display: flex;
-
-}
-.wwdblock23 {
-border: 2px solid black;
-display: flex;
-}
 
 
 
