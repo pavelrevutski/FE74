@@ -518,10 +518,6 @@ line-height: 1.15;
 
 /* ----------------section 4 -------------- */
 
-
-
-
-
 .section4 {
   /* max-width: 1200px;
   margin: 0 auto;
@@ -561,37 +557,45 @@ padding: 3rem;
 
 .block {
   flex: 1;
-  margin: 3rem auto;
+  margin: 48px auto;
   flex-basis: 30%;
   display: flex;
+  align-items: center;
+
+  
 
 }
 
 .block__text {
-  font-family: Raleway;
+font-family: "Raleway";
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
+padding: 0 0 1rem 1rem;
+line-height: 1.15;
+text-transform: uppercase;
+text-align-last: left;
+
+
 
 }
 
 .block__lorem{
-  font-family: Raleway;
+  font-family: "Raleway";
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 16px;
-letter-spacing: 0em;
-text-align: center;
-margin-top: 48px;
-padding-top: 30px;
+padding: 10px 0 1rem 1rem;
+font-size: 1.125rem;
+text-align: left;
+
 }
 
 .block__img {
-float: left;
+  min-width: 64px;
+
 }
 
 
