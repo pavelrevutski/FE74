@@ -180,6 +180,7 @@ text-align: center;
     url(../images/Rectangle2.svg);
     padding-top: 177px;
      margin: 0 auto;  
+     /* background-size: cover; */
   }
 
 
@@ -233,7 +234,7 @@ text-align: center;
 .mogo__button {
   margin: 2.5rem auto;
   border: 3px solid #fff;
-  /* display: block; */
+  display: block;
   text-align: center;
   padding: 1.2rem 3rem;
   width: 400px;
@@ -661,14 +662,14 @@ position: relative;
 
 .wwdblock2 {
 border: 2px solid black;
-display: flex;
+flex: 1;
 flex-wrap: nowrap;
 flex-direction: column;
 }
 
 .wwdblock21 {
 border: 2px solid black;
-display: flex;
+
 
 }
 
@@ -711,7 +712,7 @@ justify-content: center;
 width: 115px;
 }
 
-
+/* ----------------------section 8 ------------ */
 
 
 
@@ -752,24 +753,22 @@ margin-top: 48px;
 
 
 
+/* ------------section 8 ----------- */
 
-
-.meetourteam{
+.meet_our_team{
   display: flex;
   justify-content: center;
   margin-bottom: 58px;
 }
 
-.hsline {
-  border-bottom: 4px solid rgb(238, 154, 154);
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
-  padding-top: 30px;
-
+.meet_our_team__blocks {
+  display: flex;
+  justify-content: space-around;
 }
 
-.imgLine {
+
+
+/* .imgLine {
   display: center;
   margin-left: auto;
   margin-right: auto;
@@ -778,7 +777,7 @@ margin-top: 48px;
 .img_3 {
 display: inline-block;
 width: auto;
-}
+} */
 
 .baw {
   /* max-width: 1200px;
