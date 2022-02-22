@@ -180,8 +180,10 @@ text-align: center;
     url(../images/Rectangle2.svg);
     padding-top: 177px;
      margin: 0 auto;  
-     /* background-size: cover; */
-  }
+     background-size: cover;
+     background-position: center;
+    
+    }
 
 
 
