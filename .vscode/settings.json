@@ -5,7 +5,6 @@
   },
   "eslint.codeActionsOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.workingDirectories": [
     {
       "mode": "auto"
@@ -54,5 +53,6 @@
   "files.autoSave": "onFocusChange",
   "window.zoomLevel": 0,
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "bracketPairColorizer.depreciation-notice": false
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

@@ -1,0 +1,6 @@
+body {
+  display: grid;
+  transition: all 2s; }
+
+.section {
+  margin: auto; }
